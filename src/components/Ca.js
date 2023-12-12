@@ -2,18 +2,18 @@ import React, { Component } from "react";
 
 export class Ca extends Component {
   render() {
-    let {title,description,urlToImage}=this.props;
+    let {title,desc,urlToImage}=this.props;
     return (
-      <div>
+      <div className="my-3">
         <div className="card" style={{width: "18rem"}}>
-          <img src={urlTomage} className="card-img-top" alt="..." />
+          <img src={urlToImage} className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title">{title}</h5>
             <p className="card-text">
-             {description}
+             {desc}
             </p>
-            <a href="/" className="btn btn-primary">
-              Go somewhere
+            <a href="/" className="btn btn-sn btn-primary">
+              Visit Us
             </a>
           </div>
         </div>
