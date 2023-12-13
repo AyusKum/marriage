@@ -4,6 +4,7 @@ export class Navbar extends Component {
   render() {
     return (
       <>
+      <div className="opaque"></div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="/navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,25 +34,5 @@ export class Navbar extends Component {
     );
   }
 }
-
-export default Navbar
-// import React from "react";
-
-// const Navbar = () => {
-//   return (
-//     <>
-//       <nav>
-//         <ul>
-//           <li><link to='/home'>Home</link></li>
-//           <li><link to='/Venues'>Venues</link></li>
-//           <li><link to='/Videos'>Videos</link></li>
-//           <li><link to='/Photos'>Photos</link></li>
-//           <li><link to='/Rituals'>Rituals</link></li>
-//           <li><link to='/Contact'>Contact Us</link></li>
-//           <li><link to='/Vendors'>Contact Vendors</link></li>
-//         </ul>
-//       </nav>
-//     </>
-//   );
-// };
-// export default Navbar;
+  
+export default Navbar;

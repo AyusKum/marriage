@@ -1,0 +1,31 @@
+header img {
+    height: 80px;
+}
+body {
+    height: 80vh;
+    background-image: url('https://cdn.pixabay.com/photo/2017/08/06/20/11/wedding-2595862_640.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 0px;
+    padding: 10px;
+}
+*opaque{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background: rgba(0,0,0,0.2);
+}
+
+main {
+    color: white;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+}
