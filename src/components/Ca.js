@@ -5,7 +5,7 @@ export class Ca extends Component {
     let {title,desc,urlToImage}=this.props;
     return (
       <div className="my-3">
-        <div className="card" style={{width: "18rem"}}>
+        <div className="card" style={{width: "18rem", height:"26rem"}} >
           <img src={urlToImage} className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title">{title}</h5>
