@@ -7,7 +7,7 @@ export class Footer extends Component {
   render() {
     return (
     <div>
-    <div style = {{height:"100vh", color:"black", backgroundColor:"hotpink" }}>
+    <div style = {{height:"100ch", color:"black", backgroundColor:"hotpink" }}>
         <h3>GET INSPRED</h3>
         <a href="#">Photos</a> <a href="#">Weddings</a> <a href="#">Blog</a>
         <hr/>
