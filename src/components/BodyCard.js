@@ -80,6 +80,7 @@ export class BodyCard extends Component {
   }
   render() {
     return (
+      <div className="BodyCard">
       <div className="container my-7">
         <h2 style={{color:"white"}}>Wedding Places</h2>
         <div className="row">
@@ -90,6 +91,7 @@ export class BodyCard extends Component {
                
         })}
         </div>
+      </div>
       </div>
     );
   }

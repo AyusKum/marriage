@@ -2,7 +2,7 @@ import React from 'react'
 
 const Venues = () => {
   return (
-    <div>Venues</div>
+    <div className="Venues">Venues</div>
   )
 }
 export default Venues;

@@ -15,7 +15,7 @@ export class PageWhy extends Component {
         <li>Truthfullness</li>
         </ul>
 
-      <h2 style={{textAlign:"center",color:"black"}}><i class="fa-solid fa-shake fa-phone"></i><b>  Contact Us :<i>+91 91403655XX</i></b></h2>
+      <h2 style={{textAlign:"center",color:"black"}}><i className="fa-solid fa-shake fa-phone"></i><b>  Contact Us :<i>+91 91403655XX</i></b></h2>
      </div>
     )
   }

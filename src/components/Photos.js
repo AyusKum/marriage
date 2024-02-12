@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Photos = () => {
   return (
-    <div>Photos</div>
+    <div className="Photos"> hello there Photos</div>
   )
 }
 export default Photos;

@@ -27,7 +27,21 @@
 .App-link {
   color: #61dafb;
 }
-
+.Photos{
+  height:80vh;
+  width:100vw;
+  background-color: red;
+}
+.About{
+  height:80%;
+  width:100%;
+  background-color: blue;
+}
+.Venues{
+  height:80vh;
+  width:100vw;
+  background-color: rgb(105, 151, 161);
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

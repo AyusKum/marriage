@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const Vendor = () => {
+function Vendor() {
   return (
     <div>Vendor</div>
   )
 }
+
+export default Vendor
